@@ -9,7 +9,7 @@
     "list": [
       {
         "id": "0c81bfe8-bf24-4394-bc1c-ec525f0e6214",
-        "context": "{\"mobile\":\"18115357342\",\"text\":\"hello welcome\",\"countryCode\":\"86\"}",
+        "context": {"mobile":"18115357342","text":"hello welcome","countryCode":"86"}",
         "typeDesc": "sms",
         "serviceName": "Test system",
         "statusDesc": "queue nack",
