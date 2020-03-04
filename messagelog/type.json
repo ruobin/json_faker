@@ -1,0 +1,27 @@
+{
+    "success":true,
+    "sys":"unified-messing-platform",
+    "code":0,
+    "data":[
+        {
+            "code":1,
+            "name":"push",
+            "description":null
+        },
+        {
+            "code":2,
+            "name":"sms",
+            "description":null
+        },
+        {
+            "code":3,
+            "name":"email",
+            "description":null
+        },
+        {
+            "code":4,
+            "name":"wechat",
+            "description":null
+        }
+    ]
+}
