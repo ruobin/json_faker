@@ -1,0 +1,47 @@
+{
+    "success":true,
+    "sys":"unified-messing-platform",
+    "code":0,
+    "data":[
+        {
+            "code":1,
+            "name":"send",
+            "description":"just send message to rabbitmq"
+        },
+        {
+            "code":2,
+            "name":"exchange ack",
+            "description":"message get to the exchange"
+        },
+        {
+            "code":3,
+            "name":"exchange nack",
+            "description":"message not get to the exchange"
+        },
+        {
+            "code":4,
+            "name":"queue nack",
+            "description":"message get to the queue"
+        },
+        {
+            "code":5,
+            "name":"basic ack",
+            "description":"ump consume message successfully"
+        },
+        {
+            "code":6,
+            "name":"basic nack",
+            "description":"ump fail to consume message"
+        },
+        {
+            "code":7,
+            "name":"vendor ack",
+            "description":"vendor send message successfuly"
+        },
+        {
+            "code":8,
+            "name":"vendor nack",
+            "description":"vendor fail to send message"
+        }
+    ]
+}
