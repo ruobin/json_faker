@@ -1,22 +1,14 @@
 {
-	"success":true,
-	"sys":"unified-messing-platform",
-	"code":0,
-	"data":{
-		"pageNow":1,
-		"pageSize":10,
-		"count":1,
-		"list":[
-			{
-				"id":"0c81bfe8-bf24-4394-bc1c-ec525f0e6214",
-				"context":"{\"mobile\":\"18115357342\",\"text\":\"hello welcome\",\"countryCode\":\"86\"}",
-				"typeDesc":"sms",
-				"serviceName":"Test system",
-				"statusDesc":"queue nack",
-				"createTime":1582785516599,
-				"updateTime":1582785517618
-			}
-		],
-		"offset":0
-	}
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
